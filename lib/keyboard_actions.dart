@@ -300,7 +300,7 @@ class KeyboardActionstate extends State<KeyboardActions>
               ),
             Material(
               color: config.keyboardBarColor ?? Colors.grey[200],
-              elevation: 20,
+              elevation: 0,
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
